@@ -1,7 +1,8 @@
+
 import { Droid } from "./interfaces";
 
 function droidProducer(kind: string) {
-    if (kind === 'battle'){
+    if (kind === 'battle') {
         return battleDroidFactory;
     }
 

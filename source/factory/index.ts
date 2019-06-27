@@ -1,4 +1,4 @@
-import { IBMW , bmwtype } from './interfaces';
+import { IBMW, bmwtype } from './interfaces';
 export class BmwFactory {
 
     static create(type: bmwtype) {
@@ -12,7 +12,7 @@ export class BmwFactory {
 }
 
 export class Bmw implements IBMW {
-    constructor(public model: bmwtype,public price: number,public maxSpeed: number) {}
+    constructor(public model: bmwtype, public price: number, public maxSpeed: number) { }
 }
 
 export default BmwFactory;

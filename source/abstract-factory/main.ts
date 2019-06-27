@@ -1,3 +1,5 @@
 import droidProducer from "./index";
+import { Droid } from "./interfaces";
 
-console.log(droidProducer('battle'));
+const droid: Droid = droidProducer('battle')();
+console.log(droid);
