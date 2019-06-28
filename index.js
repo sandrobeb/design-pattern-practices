@@ -1,1 +1,1 @@
-require('./build/facade/main.js');
+require('./build/decorator/main.js');
